@@ -17,7 +17,7 @@ a {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1150px;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -82,13 +82,13 @@ header {
 }
 
 .image-slider { 
-  width: 1100px;
-  height: 469px; 
+  width: 1120px;
+  height: 477px; 
 }
 
 .isi-slide img { 
-  width: 1100px;
-  height: 469px; 
+  width: 1120px;
+  height: 477px; 
   float: left;
 }
 
@@ -119,10 +119,10 @@ header {
     opacity: 0; 
   }     
   37% {
-    left: -1100px; opacity: 1; 
+    left: -1120px; opacity: 1; 
   }     
   67% {
-    left: -1100px; opacity: 1; 
+    left: -1120px; opacity: 1; 
   }     
   69% {
     opacity: 0; 
@@ -131,10 +131,10 @@ header {
     opacity: 0; 
   }     
   72% {
-    left: -2200px; opacity: 1; 
+    left: -2240px; opacity: 1; 
   }     
   99% {
-    left: -2200px; opacity: 1; 
+    left: -2240px; opacity: 1; 
   }           
   100% { 
     left: 0; opacity: 0;
@@ -159,10 +159,10 @@ header {
     opacity: 0; 
   }     
   37% {
-    left: -1100px; opacity: 1; 
+    left: -1120px; opacity: 1; 
   }     
   67% {
-    left: -1100px; opacity: 1; 
+    left: -1120px; opacity: 1; 
   }     
   69% {
     opacity: 0; 
@@ -171,10 +171,10 @@ header {
     opacity: 0; 
   }     
   72% {
-    left: -2200px; opacity: 1; 
+    left: -2240px; opacity: 1; 
   }     
   99% {
-    left: -2200px; opacity: 1; 
+    left: -2240px; opacity: 1; 
   }           
   100% { 
     left: 0; opacity: 0;
@@ -183,7 +183,7 @@ header {
 
 /* tentang */
 .isi-tentang {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);   
+  box-shadow: 0 0 6px #e8e8e8;  
   border: 1px solid #efefef;
   margin: 0 auto;
   padding: 20px;
@@ -218,7 +218,7 @@ header {
 }
 
 .lesson { 
-  width: 49%;
+  width: 49.5%;
   border: 1px solid #dde3f0;
   float: left;
   padding-top: 20px;
@@ -227,6 +227,7 @@ header {
   margin-right: 1%;
   background-color: white;
   min-height: 520px;
+  box-shadow: 0 0 6px #e8e8e8;
 }
 
 .lesson-icon {
