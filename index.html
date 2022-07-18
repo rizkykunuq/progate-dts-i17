@@ -9,6 +9,19 @@
     	<link rel="stylesheet" href="assets/responsive.css">
     	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
       <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+      <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+      <script>
+        window.OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+          OneSignal.init({
+            appId: "abebfb19-a13f-4550-ac8d-854a61e951ae",
+            safari_web_id: "web.onesignal.auto.0dd8fdab-49d8-437b-ac06-36c9d15991be",
+            notifyButton: {
+              enable: true,
+            },
+          });
+        });
+      </script>
   </head>
   <body>
     <!--Header-->
